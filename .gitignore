@@ -1,0 +1,25 @@
+# Node
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Environment variables
+.env
+.env.local
+
+# Build outputs
+dist/
+build/
+
+# SQLite
+*.sqlite-shm
+*.sqlite-wal
+*.sqlite-journal
+
+# IDE/editor cruft
+.vscode/
+.idea/
+.DS_Store
+*.swp
